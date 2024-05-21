@@ -1,0 +1,10 @@
+[package]
+name = "backyard"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.5"
+serde = {version = "1.0.202", features = ["derive"]}
+tokio = {version = "1.37.0", features = ["full"]}
+uuid = {version = "1.8.0", features = ["serde", "v4"]}
